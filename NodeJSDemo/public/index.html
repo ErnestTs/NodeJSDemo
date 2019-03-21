@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_795479_1xj1f3vpx2b.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_621761_jlsp1irj1u8wu3di.css">
+    <title>vue3test</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but vue3test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+
+      var oLink = document.createElement("link");
+      if(false){
+          oLink.href = "./a.css";
+      }else{
+          oLink.href = "./b.css";
+      }
+      oLink.rel = "stylesheet";
+      oLink.Name = "dynamicStyle";
+      document.getElementsByTagName("head")[0].append(oLink);
+
+    </script>
+  </body>
+</html>
